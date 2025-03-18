@@ -1,0 +1,2 @@
+
+The application features a modern and user-friendly interface with a dark theme and vibrant purple gradient background, enhancing the user experience. Users can adjust the length of the generated password using a slider, providing flexibility and control over password complexity.The application offers checkboxes to include or exclude numbers and characters in the generated password. This allows users to customize the character set based on their security requirements.
