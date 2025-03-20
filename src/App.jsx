@@ -1,7 +1,9 @@
 import { useState, useCallback, useEffect, useRef } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import "./App.css";
 
 function App() {
+
   const [length, setLength] = useState(8);
   const [numberAllowed, setNumberAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(false);
@@ -95,6 +97,9 @@ function App() {
               />
               <span>Characters</span>
             </label>
+          </div>
+          <div>
+            <Analytics />
           </div>
         </div>
       </div>
